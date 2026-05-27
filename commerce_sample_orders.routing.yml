@@ -1,0 +1,9 @@
+commerce_sample_orders.generator_form:
+  path: '/admin/commerce/orders/sample-generator'
+  defaults:
+    _form: '\Drupal\commerce_sample_orders\Form\GenerateSampleOrdersForm'
+    _title: 'Generate Sample Orders'
+  requirements:
+    _permission: 'administer commerce_order'
+  options:
+    _admin_route: TRUE

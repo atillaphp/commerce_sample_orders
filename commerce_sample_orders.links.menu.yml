@@ -1,0 +1,6 @@
+commerce_sample_orders.generator_form:
+  title: 'Sample Order Generation'
+  description: 'Generate mock/sample orders for development and testing purposes.'
+  parent: commerce_product_hub.configuration
+  route_name: commerce_sample_orders.generator_form
+  weight: 60

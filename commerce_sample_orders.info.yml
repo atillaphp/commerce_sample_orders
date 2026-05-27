@@ -1,0 +1,10 @@
+name: 'Commerce Sample Orders'
+type: module
+version: 1.0.0
+description: 'Development helper module to generate sample orders for testing and development purposes.'
+core_version_requirement: ^10 || ^11
+package: 'Soğan Commerce'
+
+dependencies:
+  - commerce:commerce_store
+  - commerce:commerce_order

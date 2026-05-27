@@ -1,0 +1,18 @@
+{
+    "name": "soganbilisim/commerce_sample_orders",
+    "description": "Development helper module to generate sample orders for testing and development purposes.",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/commerce_order": "^2.0 || ^3.0",
+        "drupal/core": "^10.0 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\commerce_sample_orders\\": "src/"
+        }
+    },
+    "extra": {
+        "installer-name": "commerce_sample_orders"
+    }
+}
