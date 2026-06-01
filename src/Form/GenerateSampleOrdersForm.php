@@ -243,7 +243,7 @@ class GenerateSampleOrdersForm extends FormBase {
         $shipment = \Drupal::entityTypeManager()->getStorage('commerce_shipment')->create([
           'type' => $shipment_type_id,
           'order_id' => (int) $order->id(),
-          'title' => 'Sample shipment',
+          'title' => (string) $this->t('Sample shipment'),
           'shipping_profile' => $shipping_profile,
           'items' => $shipment_items,
           'amount' => new Price('0.00', $order->getStore()->getDefaultCurrencyCode()),

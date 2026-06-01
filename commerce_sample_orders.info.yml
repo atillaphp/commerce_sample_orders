@@ -8,3 +8,6 @@ package: 'Soğan Commerce'
 dependencies:
   - commerce:commerce_store
   - commerce:commerce_order
+
+'interface translation project': commerce_sample_orders
+'interface translation server pattern': modules/custom/commerce_sample_orders/translations/%language.po
