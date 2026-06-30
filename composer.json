@@ -4,6 +4,7 @@
     "type": "drupal-module",
     "license": "GPL-2.0-or-later",
     "require": {
+        "drupal/commerce_product": "^2.0 || ^3.0",
         "drupal/commerce_order": "^2.0 || ^3.0",
         "drupal/core": "^10.0 || ^11.0"
     },

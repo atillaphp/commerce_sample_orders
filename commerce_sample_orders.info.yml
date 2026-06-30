@@ -6,6 +6,8 @@ core_version_requirement: ^10 || ^11
 package: 'Soğan Commerce'
 
 dependencies:
+  - drupal:config_translation
+  - commerce:commerce_product
   - commerce:commerce_store
   - commerce:commerce_order
 
