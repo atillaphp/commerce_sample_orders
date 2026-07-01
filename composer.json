@@ -6,7 +6,7 @@
     "require": {
         "drupal/commerce_product": "^2.0 || ^3.0",
         "drupal/commerce_order": "^2.0 || ^3.0",
-        "drupal/core": "^10.0 || ^11.0"
+        "drupal/core": "^11"
     },
     "autoload": {
         "psr-4": {
@@ -15,5 +15,6 @@
     },
     "extra": {
         "installer-name": "commerce_sample_orders"
-    }
+    },
+    "version": "1.0.0"
 }
