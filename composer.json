@@ -4,8 +4,9 @@
     "type": "drupal-module",
     "license": "GPL-2.0-or-later",
     "require": {
-        "drupal/commerce_product": "^2.0 || ^3.0",
+        "drupal/commerce": "^3.2",
         "drupal/commerce_order": "^2.0 || ^3.0",
+        "drupal/commerce_product": "^2.0 || ^3.0",
         "drupal/core": "^11"
     },
     "autoload": {
@@ -16,5 +17,5 @@
     "extra": {
         "installer-name": "commerce_sample_orders"
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
 }
