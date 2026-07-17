@@ -4,6 +4,7 @@ version: 1.0.1
 description: 'Development helper module to generate sample orders for testing and development purposes.'
 core_version_requirement: ^11
 package: 'Soğan Commerce'
+project status url: 'https://updates.soganbilisim.com/saklimarket/release-history'
 
 dependencies:
   - drupal:config_translation
